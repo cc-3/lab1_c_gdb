@@ -18,6 +18,7 @@ int ll_equal(const node* a, const node* b) {
 /* The main function exists just to test ll_equal.
    There are two tests. The second one is by default
    buggy. Please find the error and fix it! */
+#ifndef TEST
 int main(int argc, char** argv) {
   int i;
   node nodes[10];
@@ -36,3 +37,4 @@ int main(int argc, char** argv) {
 
   return 0;
 }
+#endif
