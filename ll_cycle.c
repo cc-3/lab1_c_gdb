@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include "node.h"
 
+// TODO: complete this function
 int ll_has_cycle(node *head) {
   return 0;
 }
